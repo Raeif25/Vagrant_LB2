@@ -64,13 +64,13 @@ Nun ist die VM erstellt.
 Danach habe ich in der Bash folgende Befehle ausgeführt.
 
 1. Paketliste neu einlesen und Pakete aktualisieren:
-   Shell 
+   ```Shell 
    $  sudo apt-get update   #Paketlisten des Paketmanagement-Systems "APT" neu einlesen
    
    $  sudo apt-get update   #Installierte Pakete wenn möglich auf verbesserte Versionen aktualisieren
 
    $  sudo reboot           #System-Neustart durchführen
-   
+   ```
 2. Software Controlcenter "Synaptic" installieren:
    Shell 
    $  sudo apt-get install synaptic
