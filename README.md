@@ -93,7 +93,7 @@ Danach habe ich mit Vagrant eine VM erstellt.
 1. Terminal öffnen
 2. Einen neuen Ordner für die VM anlegen:
     ```Shell
-      $ cd C:\Users\Arun Shanmuganathan\M300\eigene umgebung\
+      $ cd C:\Users\Raeif Al-Habash\M300-Services
       $ mkdir virtual boxen
       $ cd virtual boxen
      ```
@@ -105,7 +105,7 @@ Danach habe ich mit Vagrant eine VM erstellt.
      ```
 4. Die VM ist nun bereit und kann mit SSH-Zugriff bedient werden:
     ```Shell
-      $ cd C:\Users\Arun Shanmuganathan\M300\eigene umgebung\virtual boxen     #Zum Verzeichnis der VM wechseln
+      $ cd C:\Users\Raeif Al-Habash\M300-Services\virtual boxen     #Zum Verzeichnis der VM wechseln
       $ vagrant ssh                       #SSH-Verbindung zur VM aufbauen
      ```
 
@@ -114,7 +114,7 @@ Nachfolgend habe ich eine VM mit Apache Webserver von einem bereits abgeänderte
 1. Terminal öffnen
 2. In das M300-Verzeichnis wechseln:
     ```Shell
-      $ cd C:\Users\Arun Shanmuganathan\M300\eigene umgebung\virtual boxen
+      $ cd C:\Users\Raeif Al-Habash\M300-Services\virtual boxen
      ```
 3. VM erstellen und starten:
     ```Shell
@@ -175,12 +175,12 @@ Damit ich das readme-File lokal bearbeiten kann, habe ich das Repository herunte
 1. Terminal öffnen
 2. Ordner für Repository erstellen:
     ```Shell
-      $ cd C:\Users\Arun Shanmuganathan\M300\eigene umgebung\virtual boxen
+      $ cd C:\Users\Raeif Al-Habash\M300-Services\virtual boxen
       $ mkdir githublb2
      ```
 3. Repository mit SSH klonen:
     ```Shell
-      $ git clone git@github.com:arunshan12/lb2.git
+      $ git clone git@github.com:Raeif25/Vagrant_LB2.git
 
       Cloning into 'lb2'...
      ```
@@ -198,7 +198,7 @@ Zuerst musste ich Lokal einen SSH-Key erstellen:
 
 1.  Folgenden Befehl mit der Account-E-Mail von GitHub in Bash einfügen:
     ```Shell
-      $  ssh-keygen -t rsa -b 4096 -C "arun.shanmuganathan@edu.tbz.ch"
+      $  ssh-keygen -t rsa -b 4096 -C "raeif.alhabash.25@gmail.com"
     ```
 2. Neuer SSH-Key wird erstellt:
     ```Shell
@@ -218,7 +218,7 @@ Danach kann ich den SSH-Key dem Client hinzufügen:
 2.  Unter den Menübereichen auf der linken Seite zum Abschnitt SSH und GPG keys wechseln
 3.  Auf New SSH key klicken
 4.  Im Formular unter Title die Bezeichnung MB SSH-Key vergeben
-5.  Den Key von der Datei C:\Users\Arun Shanmuganathan\.ssh\id_rsa.pub einfügen und auf Add SSH key klicken
+5.  Den Key von der Datei C:\Users\Raeif Al-Habash\.ssh\id_rsa.pub einfügen und auf Add SSH key klicken
 
 SSH Zugriff auf VM
 
@@ -346,7 +346,7 @@ K5
 
 Bereits bekannt
 
-- Virtualisierungen mit Linux und Windows habe ich schon sehr oft in Üks angeschaut, jedoch nie automatisiert.
+- Virtualisierungen mit Linux und Windows habe ich schon sehr oft in Üks angeschaut, jedoch nur in der Letztes ÜK Modul automatisiert.
 - Ich habe schon von GitHub gehört, jedoch habe ich dies nie würklich gebraucht oder angeschaut.
 
 Neu
@@ -357,7 +357,7 @@ Neu
 
 Fazit
 
-In der LB2 konnte ich sehr viel neues lernen. Die Auseinandersetzung mit Vagrant und Virtualbox hat mir sehr geholfen. Ich kenne nun verschiedene neue Befehle von Vagrant. Kann ein Vagrantfile erstellen und somit automatisiert VMs erstellen lassen. In meinem Arbeitsplatz kann ich dies gut gebrauchen, wenn ich in die Abteilung WindowsServer komme.
+In der LB2 konnte ich sehr viel neues lernen. Die Auseinandersetzung mit Vagrant und Virtualbox hat mir sehr geholfen. Ich kenne nun verschiedene neue Befehle von Vagrant. Kann ein Vagrantfile erstellen und somit automatisiert VMs erstellen lassen. In meinem Arbeitsplatz kann ich dies gut gebrauchen, als ich in die Abteilung WindowsServer bin.
 
 ## Reflexion
 
