@@ -13,7 +13,7 @@ Folgend Liste ich Ihnen meine Lernschritte im Modul 300 auf.
   - [SSH-Key](#ssh-key)
 - [K2](#k2)
   - [GitHub Account](#github-account)
-  - [Markdwon](#Markdown)
+  - [Markdown](#markdown)
 - [K3](#k3)
   - [Testen](#testen)
     - [Apache](#apache)
@@ -239,6 +239,8 @@ Ich habe folgendermassen einen Github Account erstellt:
 2. Auf Sign up klicken
 3. Username, E-mail und Passwort eingeben sowie Aufgabe zum verifizieren lösen
 4. Auf Create an Account klicken
+
+## Markdown
 
 Markdown
   ```Shell
